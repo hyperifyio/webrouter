@@ -1,31 +1,34 @@
-# `hyperifyio/webrouter`: WebSocket-based TCP Routing for web applications
+# `webrouter` by [HyperifyIO](https://github.com/hyperifyio): Enhancing Web Connectivity
 
-## Overview
+`webrouter` marks a significant stride in HyperifyIO's journey to fortify web 
+application security and connectivity through innovative Public Key 
+Infrastructure (PKI) solutions. This project is at the forefront of enabling 
+advanced network communication within web environments.
 
-`webrouter` is a project under development by [HyperifyIO](https://www.hyperify.io), designed to 
-provide utilities to create raw TCP connections within web environments. 
+## Revolutionizing Web-Based TCP Connections
 
-Leveraging a WebSocket-based routing mechanism it enables use of more advanced 
-features like custom mTLS connections within the browser environment, enabling 
-end-to-end encrypted mutual TLS (mTLS) connections tailored to the specific 
-needs of custom software projects.
+At its core, `webrouter` introduces a novel WebSocket-based routing mechanism 
+that paves the way for implementing raw TCP connections in browser settings. 
+This enables the development of web applications that demand custom TLS 
+settings, including the utilization of mutual TLS (mTLS) connections, for 
+unparalleled security and privacy.
 
-`webrouter` is engineered for developers seeking to implement secure, raw TCP 
-connections in browser environments, making it an essential tool for web 
-applications that require custom TLS settings for enhanced security and 
-privacy.
+`webrouter` is crafted for developers who aim to integrate secure, raw TCP 
+connections within their web applications. It emerges as an indispensable 
+resource for enhancing web application security without compromising on 
+performance.
 
-Note, `webrouter` only provides the TCP network routing. It does not provide 
-SSL encryption. To use mTLS, you would use standard SSL libraries like Go's 
-standard library and build your solution for WebAssembly. We may provide a 
-client library later though. We also provide 
-[webhsm](https://github.com/hyperifyio/webhsm) for secure handling of PKI 
-secrets.
+While `webrouter` focuses on TCP network routing, it is essential to note that 
+SSL encryption is not directly provided. Instead, developers can utilize 
+standard SSL libraries tailored for WebAssembly to create secure mTLS 
+connections. Additionally, our [webhsm](https://github.com/hyperifyio/webhsm) 
+project offers robust management of PKI secrets to complement the capabilities 
+of `webrouter`.
 
-**Project Status**: Currently in active development, `webrouter` is moving 
-towards its first major release. Our team is focused on ensuring the platform's 
-reliability, performance, and ease of use. Stay tuned for updates and 
-milestones by visiting our [project issue](https://github.com/hyperifyio/webrouter/issues/1).
+**Project Status**: `webrouter` is under active development, progressing 
+towards its firstl major release. Our team is dedicated to optimizing the 
+platform's reliability and user-friendliness. For the latest developments and 
+milestones, follow our [project status](https://github.com/hyperifyio/webrouter/issues/1).
 
 ## Key Features (TODO!)
 
